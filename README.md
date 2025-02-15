@@ -4,6 +4,7 @@
 
 Dieses Projekt ist eine nachgebaute Version eines modernen Immobilien-Webdesigns mit HTML und CSS. Die Vorlage ist für eine Immobilienplattform konzipiert, die Immobilien auf elegante und professionelle Weise präsentiert.
 <br>
+<br>
 
 ### Features
 
@@ -20,6 +21,7 @@ Dieses Projekt ist eine nachgebaute Version eines modernen Immobilien-Webdesigns
 ❓ FAQ-Bereich: Häufig gestellte Fragen für eine bessere Nutzererfahrung.
 
 📩 Footer mit Links und Newsletter: Übersichtliche Fußzeile mit Links zu wichtigen Seiten und Social Media.
+<br>
 <br>
 
 
