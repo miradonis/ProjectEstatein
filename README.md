@@ -32,6 +32,5 @@ Dieses Projekt ist eine nachgebaute Version eines modernen Immobilien-Webdesigns
 ✅ Optional: JavaScript für erweiterte Interaktionen
 
 
-
-
+      
 ![PNG-Bild](https://github.com/user-attachments/assets/5c01857a-3c20-4a48-b2ff-7347cbff1e83)
