@@ -30,7 +30,8 @@ Dieses Projekt ist eine nachgebaute Version eines modernen Immobilien-Webdesigns
 ✅ CSS3 (Flexbox & Grid für Layouts)
 
 ✅ Optional: JavaScript für erweiterte Interaktionen
-
-
+<br>
+<br>
+<br>
       
 ![PNG-Bild](https://github.com/user-attachments/assets/5c01857a-3c20-4a48-b2ff-7347cbff1e83)
