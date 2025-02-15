@@ -1,10 +1,10 @@
-#Real Estate Website Template
+# Real Estate Website Template
 
-###Beschreibung
+### Beschreibung
 
 Dieses Projekt ist eine nachgebaute Version eines modernen Immobilien-Webdesigns mit HTML und CSS. Die Vorlage ist für eine Immobilienplattform konzipiert, die Immobilien auf elegante und professionelle Weise präsentiert.
 
-###Features
+### Features
 
 📱 Responsives Design: Optimiert für verschiedene Bildschirmgrößen.
 
@@ -21,7 +21,7 @@ Dieses Projekt ist eine nachgebaute Version eines modernen Immobilien-Webdesigns
 📩 Footer mit Links und Newsletter: Übersichtliche Fußzeile mit Links zu wichtigen Seiten und Social Media.
 
 
-##Technologien
+### Technologien
 
 ✅ HTML5
 
