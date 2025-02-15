@@ -4,6 +4,7 @@
 
 Dieses Projekt ist eine nachgebaute Version eines modernen Immobilien-Webdesigns mit HTML und CSS. Die Vorlage ist für eine Immobilienplattform konzipiert, die Immobilien auf elegante und professionelle Weise präsentiert.
 
+
 ### Features
 
 📱 Responsives Design: Optimiert für verschiedene Bildschirmgrößen.
@@ -21,6 +22,7 @@ Dieses Projekt ist eine nachgebaute Version eines modernen Immobilien-Webdesigns
 📩 Footer mit Links und Newsletter: Übersichtliche Fußzeile mit Links zu wichtigen Seiten und Social Media.
 
 
+
 ### Technologien
 
 ✅ HTML5
@@ -28,3 +30,6 @@ Dieses Projekt ist eine nachgebaute Version eines modernen Immobilien-Webdesigns
 ✅ CSS3 (Flexbox & Grid für Layouts)
 
 ✅ Optional: JavaScript für erweiterte Interaktionen
+
+
+![PNG-Bild](https://github.com/user-attachments/assets/5c01857a-3c20-4a48-b2ff-7347cbff1e83)
