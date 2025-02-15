@@ -1,0 +1,532 @@
+
+
+/* ANCHOR Fonts, Variablen  */
+
+/*= --------- FONTS */
+@font-face {
+  font-family: "Urbanist-Medium";
+  src: url("../fonts/Urbanist-Medium.ttf");
+}
+@font-face {
+  font-family: "Urbanist-Semobild";
+  src: url("../fonts/Urbanist-SemiBold.ttf");
+}
+
+/*= --------- VARIABLES */
+:root {
+  --border-color: #262626;
+  --btn-bg-purple: #6f3bf7;
+  --btn-bg-gray: #1a1a1a;
+  --bg-sections: #141414;
+  --p-color: #999999;
+}
+
+/* ANCHOR Global Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Urbanist-Medium";
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #494848;
+}
+
+main {
+  font-family: "Urbanist-Medium-18", sans-serif;
+}
+
+h2 {
+  font-family: "Urbanist-Semobild", sans-serif;
+  font-size: clamp(0.8rem, 2vw, 4rem);
+  margin-bottom: 1%;
+}
+
+/** ANCHOR repeat styling for featured, clients section */
+.featured-properties,
+.clients,
+.questions,
+.links {
+  background-color: var(--bg-sections);
+  padding: 10vh 10vw;
+}
+
+.heading_section-description {
+  margin-bottom: 15vh;
+}
+
+.heading_section-description img {
+  width: 10%;
+  margin-bottom: 3%;
+}
+
+.heading_section-description div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading_section-description div p:nth-of-type(1),
+.journey_section-description div {
+  font-family: "Urbanist-Medium-18", sans-serif;
+  color: var(--p-color);
+  font-size: clamp(1rem, 1.5vw, 2rem);
+  width: 50vw;
+}
+
+/* = button */
+.btn-view-all {
+  background-color: var(--btn-bg-gray);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 1% 2%;
+  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-weight: 200;
+  cursor: pointer;
+}
+
+/* = heading-part, cards repeats */
+.testimonials,
+.questions-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 4%;
+}
+
+.single-testimonials,
+.single-question {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 2%;
+}
+/* = ============== repeat end */
+
+
+/* ANCHOR header */
+header {
+  font-family: "Urbanist-Medium-18", sans-serif;
+  font-size: clamp(0.8rem, 1.5vw, 2rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5vh 10vw 5vh 10vw;
+}
+
+header nav {
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav a {
+  color: white;
+  padding: 5px 15px;
+  border: 1px solid transparent;
+}
+
+header nav a:hover {
+  background-color: black;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+header p {
+  padding: 10px 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header p:hover {
+  background-color: black;
+}
+
+
+/* ANCHOR section bigHeading */
+.big-heading {
+  height: 86vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-sections);
+  padding: 8vh 0 0 8vw;
+  gap: 0 30px;
+}
+
+h1 {
+  font-family: "Urbanist-Semobild";
+  font-size: clamp(1.5rem, 4vw, 7rem);
+  margin-bottom: 2%;
+}
+
+.description {
+  width: 42vw;
+  font-family: "Urbanist-Medium-18", sans-serif;
+  color: var(--p-color);
+  font-size: clamp(0.8rem, 1.2vw, 2.5rem);
+  margin-bottom: 3em;
+}
+
+.big-heading-btns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+  gap: 10px 5%;
+}
+
+.big-heading-btns p {
+  font-size: clamp(0.8rem, 1.2vw, 1.8rem);
+  border: 1px solid var(--border-color);
+  padding: .8em 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.big-heading-btns p:hover {
+  background-color: var(--btn-bg-purple);
+}
+
+.big-heading-cards {
+  /* width: 50%; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em 2em;
+}
+
+.big-heading-cards div {
+  background-color: var(--btn-bg-gray);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.number {
+  font-size: clamp(1rem, 2vw, 2.5rem);
+  margin-bottom: 0.5em;
+}
+
+.big-heading-cards div p:nth-of-type(2) {
+  font-family: "Urbanist-Medium-18", sans-serif;
+  color: var(--p-color);
+  font-size: clamp(0.8rem, 1.5vw, 2rem);
+}
+
+.big-heading img {
+  width: 50%;
+  height: 100%;
+}
+
+/* ANCHOR cards between sections */
+.cards-between-sections {
+  display: flex;
+  justify-content: space-around;
+  margin: 2vh 0;
+}
+
+.cards-between-sections div {
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--btn-bg-gray);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 2% 1%;
+  text-align: center;
+  font-size: clamp(0.8rem, 1.3vw, 1.8rem);
+}
+
+.cards-between-sections div img {
+  width: 5vw;
+  margin-bottom: 10%;
+}
+
+/* ANCHOR cards in featured section*/
+.wrapper-cards {
+  display: flex;
+  justify-content: center;
+  gap: 4em 4%;
+  flex-wrap: wrap;
+}
+
+.single-card {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 2%;
+  width: 400px;
+}
+
+.img-wrapper {
+  margin-bottom: 20px;
+}
+
+.img-wrapper img {
+  height: 100%;
+  width: 100%;
+}
+
+.single-card-text {
+  margin-bottom: 50px;
+}
+
+.single-card-text h3 {
+  font-size: clamp(1.5rem, 1.5vw, 2.5rem);
+  margin-bottom: 20px;
+}
+
+.single-card-text p {
+  font-size: clamp(1rem, 1.2vw, 1.5rem);
+  color: var(--p-color);
+}
+
+.single-card-text p a {
+  text-decoration: underline;
+}
+
+.properties-house {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+}
+
+.single-propertie {
+  display: flex;
+  align-items: center;
+  background-color: #1f1f1f;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  padding: 1% 4%;
+}
+
+.properties-house + div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-property-btn {
+  background-color: var(--btn-bg-purple);
+  font-size: clamp(1rem, 1.2vw, 1.6rem);
+  font-weight: 200;
+  padding: 3% 4%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.price-house > :first-child {
+  color: var(--p-color);
+  font-size: clamp(1.2rem, 1.2vw, 1.6rem);
+  /* margin-bottom: 2%; */
+}
+
+.price-house > :last-child {
+  font-size: clamp(1.2rem, 1.5vw, 2rem);
+}
+
+
+/* ANCHOR clients sections */
+.testimonials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5vh 3vw;
+}
+
+.single-testimonials {
+  width: 400px;
+}
+
+.single-testimonials > img {
+  margin-bottom: 50px;
+}
+
+.single-testimonials .single-testimonials-text {
+  margin-bottom: 50px;
+}
+
+.single-testimonials div h3,
+.single-question div h3 {
+  font-family: "Urbanist-Semobild";
+  font-size: clamp(1rem, 1.5vw, 2.5rem);
+  margin-bottom: 20px;
+}
+
+.single-testimonials h3 + p,
+.single-question h3 + p {
+  font-size: clamp(.8rem, 1.2vw, 1.5rem);
+  height: 8vh;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+  font-size: clamp(1rem, 1.2vw, 1.5rem);
+}
+
+.user-info img {
+  width: 20%;
+}
+
+.name {
+  margin-bottom: 10px;
+}
+
+.name ~ p {
+  color: var(--p-color);
+}
+
+/* ANCHOR questions sections */
+.questions-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 5vh 3vw;
+  flex-wrap: wrap;
+}
+
+.single-question {
+  width: 400px;
+}
+
+.single-question div {
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+
+.single-question div p  {
+  color: var(--p-color);
+}
+
+.read-more {
+  font-size: clamp(1rem, 1.2vw, 1.5rem);
+  font-weight: 200;
+  text-align: center;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  width: 100px;
+  padding: 2%;
+  background-color: var(--btn-bg-gray);
+  cursor: pointer;
+}
+
+/* ANCHOR journey sections */
+.journey {
+  background-color: #141414;
+  border-bottom: 1px solid #494848;
+  padding: 10vh 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* ? 2 bg-images */
+  background-image: url("../img/journey/journey-left.svg"), url("../img/journey/journey-right.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+  background-size: contain, contain;
+}
+
+.journey_section-description h2 {
+  margin-bottom: 4vh;
+}
+
+.btn-journey {
+  background-color: var(--btn-bg-purple);
+}
+
+
+/* ANCHOR links sections */
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links article:nth-child(1) img {
+  margin-bottom: 10%;
+}
+
+input[type="email"] {
+  background-color: var(--bg-sections);
+  border: 1px solid var(--border-color);
+  padding: 1em 8em 1em 1em;
+  border-radius: 5px;
+  color: var(--p-color);
+}
+
+.links-boxes-wrapper {
+  width: 55vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 0 7%;
+}
+
+.links-boxes {
+  font-size: clamp(0.8rem, 1.2vw, 1.8rem);
+  font-weight: 200;
+}
+
+.categorie-of-links {
+  color: var(--p-color);
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
+.links-boxes a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* ANCHOR footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: clamp(0.8rem, 1.2vw, 1.8rem);
+  padding: 7vh 10vw;
+}
+
+footer article:nth-child(1) {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer article:nth-of-type(1) a {
+  text-decoration: underline;
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 0 20px;
+}
+
+
+
+/* FIXME
